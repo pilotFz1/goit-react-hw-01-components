@@ -1,0 +1,31 @@
+.title {
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.avatar {
+  width: 200px;
+  border-radius: 50%;
+  background-color: red;
+}
+
+.description {
+  font-size: medium;
+  text-align: center;
+}
+
+.stats {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  font-size: medium;
+  gap: 40px;
+}
+
+.quantity {
+  color: red;
+}
