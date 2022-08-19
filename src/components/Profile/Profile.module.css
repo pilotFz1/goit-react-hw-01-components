@@ -1,6 +1,6 @@
 .title {
   padding: 20px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -8,6 +8,7 @@
 }
 
 .avatar {
+  box-shadow: 0 0 150px rgba(0, 0, 0, 0.5);
   width: 200px;
   border-radius: 50%;
   background-color: red;

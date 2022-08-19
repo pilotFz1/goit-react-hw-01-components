@@ -1,0 +1,32 @@
+.statistics {
+  margin: 50px;
+  font-size: small;
+  list-style: none;
+  text-decoration: none;
+  text-align: center;
+}
+
+.statList {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.997);
+  list-style: none;
+  display: flex;
+  padding: 0;
+}
+
+.item {
+  flex-direction: column;
+  display: flex;
+  width: 100px;
+  height: 50px;
+
+  font-weight: 700;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.item span {
+  margin: auto;
+}
+
+.title {
+  font-weight: 900;
+}

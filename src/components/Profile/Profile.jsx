@@ -1,7 +1,7 @@
-import css from '../UserCard/UserCard.module.css';
+import css from '../Profile/Profile.module.css';
 import PropTypes from 'prop-types';
 
-export const UserCard = ({ avatar, username, tag, location, stats }) => {
+export const Profile = ({ avatar, username, tag, location, stats }) => {
   return (
     <div className={css.title}>
       <div className={css.description}>
@@ -35,7 +35,7 @@ export const UserCard = ({ avatar, username, tag, location, stats }) => {
   );
 };
 
-UserCard.propTypes = {
+Profile.propTypes = {
   username: PropTypes.string.isRequired,
   tag: PropTypes.string.isRequired,
   location: PropTypes.string.isRequired,

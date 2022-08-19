@@ -1,0 +1,13 @@
+.condition {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+
+.offline {
+  background-color: red;
+}
+
+.online {
+  background-color: green;
+}
